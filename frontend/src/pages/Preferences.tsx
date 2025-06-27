@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Preferences = () => {
   const [autoSave, setAutoSave] = useState(true);
   const [fontStyle, setFontStyle] = useState("Serif");
-  const [homepageView, setHomepageView] = useState("Grid");
-  const [sortOrder, setSortOrder] = useState("Last Edited");
 
   const handleSave = () => {
     alert("✅ Preferences saved successfully!");
