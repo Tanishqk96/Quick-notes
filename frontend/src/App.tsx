@@ -5,7 +5,7 @@ import Register from './pages/Register';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Successfullreg from './pages/Successfulreg';
-import Dashboard from './pages/dashboard';
+import Dashboard from './pages/Dashboard';
 import About from './pages/Aboutpage';
 import Preferences from './pages/Preferences';
 function AppLayout() {
