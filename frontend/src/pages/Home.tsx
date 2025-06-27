@@ -6,15 +6,15 @@ const Home = () => {
           Welcome to QuickNotes 📝
         </h1>
 
-        <p className="text-white text-lg font-semibold md:text-xl mb-4">
+        <p className="text-black text-lg font-semibold md:text-xl mb-4">
           Your simple, fast, and organized way to take notes. Create, edit, and manage your thoughts in one place — securely and easily.
         </p>
 
-        <p className="text-white text-md md:text-lg mb-4">
+        <p className="text-black text-md md:text-lg mb-4">
           Whether you're a student, professional, or creative thinker — QuickNotes helps you focus on what matters.
         </p>
 
-        <p className="text-white text-md md:text-lg mb-6">
+        <p className="text-black text-md md:text-lg mb-6">
           Sync across devices. No distractions. Just you and your ideas — anytime, anywhere.
         </p>
 
