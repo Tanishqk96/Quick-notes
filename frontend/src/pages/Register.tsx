@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {
+    const url = "https://quick-notes-3ifl.onrender.com"
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -20,7 +21,7 @@ const Register = () => {
       return;
     }
 
-    axios.post('http://localhost:3000/api/register', JSON.stringify({
+    axios.post(`${url}/api/register`, JSON.stringify({
   fullName,
   email,
   password,

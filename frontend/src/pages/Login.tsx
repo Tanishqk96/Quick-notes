@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
+  const url = "https://quick-notes-3ifl.onrender.com"
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate(); // ✅ Moved inside the component
@@ -11,7 +12,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:3000/api/login', {
+      const res = await axios.post(`${url}/api/login`, {
         email,
         password,
       });
