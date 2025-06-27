@@ -4,6 +4,7 @@ const Preferences = () => {
   const [autoSave, setAutoSave] = useState(true);
   const [fontStyle, setFontStyle] = useState("Serif");
 
+
   const handleSave = () => {
     alert("✅ Preferences saved successfully!");
     // TODO: Send to backend or localStorage
