@@ -1,0 +1,11 @@
+{
+  "fullName": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "password": "SecurePass123!",
+  "confirmPassword": "SecurePass123!"
+}
+
+{
+  "title": "My First Note",
+  "content": "This is the body of the note."
+}
